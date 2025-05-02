@@ -505,6 +505,12 @@ left .search-box img {
   border-radius: 4px;
   top: 110%;
   right: 5%;
+  max-height: 0;
+  transition: max-height 0.8s;
+}
+
+.settings-menu-height {
+  max-height: 450px;
 }
 
 .user-profile a {
